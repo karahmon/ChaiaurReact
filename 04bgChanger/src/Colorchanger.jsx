@@ -1,0 +1,3 @@
+function Colorchanger({color}){
+
+}
