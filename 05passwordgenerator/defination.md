@@ -1,1 +1,3 @@
-call back hooks:- https://developer.mozilla.org/en-US/docs/Glossary/Callback_function
+call back hooks:- https://react.dev/reference/react/useCallback#usecallback // cashes the function const cachedFn = useCallback(fn, dependencies)
+use effect:- https://react.dev/reference/react/useEffect Some components need to stay connected to the network, some browser API, or a third-party library, while they are displayed on the page. These systems aren’t controlled by React, so they are called external.
+use ref:- https://react.dev/reference/react/useRef useRef is a React Hook that lets you reference a value that’s not needed for renderin
