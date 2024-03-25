@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function ContactUs() {
+function Contact() {
     return (
         <div className="relative flex items-top justify-center min-h-[700px] bg-white sm:items-center sm:pt-0">
         <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
@@ -142,4 +142,4 @@ function ContactUs() {
 );
 }
 
-export default ContactUs;
+export default Contact;
